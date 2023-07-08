@@ -36,12 +36,16 @@ nav a{
     cursor: pointer;
     color: white;
     font-size: 20px;
+    border: none;
 }
 header{
     background-color: rgb(230, 224, 215);
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 } 
 .banner{
-    padding: 30px 30px 30px 100px;
+    padding: 30px 30px 0px 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -59,4 +63,17 @@ header{
 }
 .divcon{
     width: 400px;
-}
+} 
+            /*main*/
+ 
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:rgb(238, 221, 196) ;
+    margin: 100px ;
+} 
+.about h3{
+    margin: 15px 0 10px 200px ;
+    color: rgb(226, 40, 40);
+    font-size: 20px;
+}           
